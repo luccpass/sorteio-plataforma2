@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./src/styles/style.css">
+
+        <script src="./src/js/main.js" defer></script>
+
+        <title>IASD - Jardim Nova Independencia</title>
+
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <div class="container__list-participants">
+
+                <table>
+                    <caption>Lista de Participantes</caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">NOME</th>
+                            <th scope="col" colspan="2">ACOES</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="particpants-table">
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="container__btn-wrapper">
+                <button class="btn-transparent" onclick="startCountdown()">Iniciar Sorteio</button>
+                <button class="btn-blue" onclick="importParticipants()">Importar Participantes</button>
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>

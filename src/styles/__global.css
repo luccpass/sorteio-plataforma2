@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --bg-color: #171819;
+    --blue: #3467a8;
+    --blue-1: #4d80c4;
+    --gray: #292C2E;
+    --gray-1: #4b4d4e;
+}
+
+body {
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+}

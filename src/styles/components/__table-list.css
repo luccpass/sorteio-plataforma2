@@ -1,0 +1,29 @@
+.container__list-participants {
+    width: 100%;
+    max-height: 45rem;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+table caption {
+    font-size: 2.6rem;
+}
+
+table th {
+    background-color: var(--gray);
+    text-align: center;
+    padding: .8rem;
+    font-size: 1.8rem;
+}
+
+table td {
+    border-bottom: .1rem solid var(--gray-1);
+    padding: .8rem;
+    text-align: center;
+    font-size: 1.6rem;
+}

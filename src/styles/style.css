@@ -1,0 +1,9 @@
+@import url('./__reset.css');
+@import url('./__global.css');
+
+/*Components*/
+@import url('./components/__container.css');
+@import url('./components/__buttons.css');
+@import url('./components/__table-list.css');
+@import url('./components/__countdown.css');
+@import url('./components/__winner-page.css');
